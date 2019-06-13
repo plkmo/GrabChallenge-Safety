@@ -317,10 +317,10 @@ class ResBlock(nn.Module):
         super(ResBlock, self).__init__()
         self.conv1 = nn.Conv1d(inplanes, planes, kernel_size=3, stride=stride,
                      padding=1, bias=False)
-        self.bn1 = nn.BatchNorm2d(planes)
+        self.bn1 = nn.BatchNorm1d(planes)
         self.conv2 = nn.Conv1d(planes, planes, kernel_size=3, stride=stride,
                      padding=1, bias=False)
-        self.bn2 = nn.BatchNorm2d(planes)
+        self.bn2 = nn.BatchNorm1d(planes)
         self.downsample = downsample
         if self.downsample:
             self.avgpool = nn.AvgPool1d(kernel_size=2)
