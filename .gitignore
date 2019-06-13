@@ -1,0 +1,6 @@
+/src/.ipynb_checkpoints/*
+/src/__pycache__/*
+/src/train_test/*
+/src/data/*
+/src/Grab_Safety_EDA.ipynb
+/src/submission_data/test_1.csv
