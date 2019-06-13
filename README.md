@@ -14,4 +14,14 @@ numpy==1.15.4
 matplotlib==2.2.3 
 
 # Training
+Perform 5-fold split for validation testing
+![alt text](https://github.com/plkmo/GrabChallenge-Safety/blob/master/src/submission_data/test_loss_vs_epoch_1.png) Loss vs Epoch
+![alt text](https://github.com/plkmo/GrabChallenge-Safety/blob/master/src/submission_data/train_auc_vs_epoch_1.png) Training AUC vs Epoch
+![alt text](https://github.com/plkmo/GrabChallenge-Safety/blob/master/src/submission_data/test_auc_vs_epoch_1.png) Test AUC vs Epoch
+![alt text](https://github.com/plkmo/GrabChallenge-Safety/blob/master/src/submission_data/test_Accuracy_vs_epoch_1.png) Test Accuracy vs Epoch
+
+Model starts to overfit after 40 epochs. For final model, all datasets are included for training and early stopping is implemented after 30 epochs.
+
+
+
 
