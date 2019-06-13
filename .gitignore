@@ -4,3 +4,6 @@
 /src/data/*
 /src/Grab_Safety_EDA.ipynb
 /src/submission_data/test_1.csv
+/src/submission_data/test1.csv
+/src/submission_data/test_labels.csv
+/src/submission_data/X_infer.pkl
